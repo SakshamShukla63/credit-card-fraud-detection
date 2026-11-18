@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+
+# Dataset
+# The Kaggle creditcard.csv file exceeds GitHub's recommended file size.
+backend/data/creditcard.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
